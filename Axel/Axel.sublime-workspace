@@ -1,0 +1,288 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"project_path"
+			],
+			[
+				"STM",
+				"STM_LIB"
+			],
+			[
+				"I",
+				"Include"
+			],
+			[
+				"ms",
+				"ms_delay"
+			],
+			[
+				"am",
+				"arm-none-eabi-gdb"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.c",
+			"settings":
+			{
+				"buffer_size": 2531,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "ARM build",
+	"command_palette":
+	{
+		"height": 33.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"clang",
+				"Preferences: SublimeClang Settings – Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Default",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 412.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/bebe/work/script/c/stm32f4-board/Axel/Axel.sublime-project",
+		"/home/bebe/work/script/c/stm32f4-board/Axel/main.c",
+		"/home/bebe/work/lib/board/f4/Libraries/CMSIS/ST/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f4xx.s",
+		"/home/bebe/work/script/c/stm32f4-board/Axel/gdbcommands",
+		"/home/bebe/.config/sublime-text-2/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/home/bebe/.config/sublime-text-2/Packages/SublimeGDB/sublimegdb.py",
+		"/home/bebe/work/script/c/stm32f4-board/Axel/Axel.elf",
+		"/home/bebe/work/script/c/stm32f4-board/Axel/Axel.bin",
+		"/home/bebe/work/script/c/stm32f4-board/Axel/system_stm32f4xx.c",
+		"/home/bebe/work/script/c/stm32f4-board/Axel/Makefile",
+		"/home/bebe/work/script/c/stm32f4-board/Axel/main.h",
+		"/home/bebe/work/system/README.md",
+		"/home/bebe/work/lib/board/f4/LIS302DL/stm32_ub_lis302dl.h",
+		"/home/bebe/work/script/stm32_discovery_arm_gcc/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_gpio.h",
+		"/home/bebe/work/script/stm32_discovery_arm_gcc/STM32F4-Discovery_FW_V1.1.0/Libraries/CMSIS/ST/STM32F4xx/Include/stm32f4xx.h",
+		"/home/bebe/work/script/Axel/main.h",
+		"/home/bebe/.config/sublime-text-2/Packages/SublimeClang/src/build/Makefile",
+		"/home/bebe/.config/sublime-text-2/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/usr/lib/python2.6/bin/python-config",
+		"/home/bebe/work/script/py/hello.py",
+		"/opt/sublime_text_2/sublime_plugin.py",
+		"/home/bebe/work/script/Axel/Axel.sublime-project",
+		"/home/bebe/work/script/Axel/Makefile",
+		"/home/bebe/.config/sublime-text-2/Packages/SublimeClang/sublimeclang.py",
+		"/home/bebe/work/script/Axel/main.c",
+		"/etc/python/debian_config",
+		"/home/bebe/work/script/Axel/gdbcommands",
+		"/home/bebe/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/bebe/work/script/stm32_discovery_arm_gcc/blinky/gdbcommands",
+		"/home/bebe/work/lib/board/f4/Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h",
+		"/home/bebe/work/lib/board/f4/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c",
+		"/home/bebe/work/lib/board/f4/LIS302DL/stm32_ub_spi1.h",
+		"/home/bebe/work/lib/board/f4/LIS302DL/stm32_ub_spi1.c",
+		"/home/bebe/work/lib/board/f4/LIS302DL/stm32_ub_lis302dl.c",
+		"/home/bebe/work/lib/board/f4/Libraries/CMSIS/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c",
+		"/home/bebe/work/script/stm32_discovery_arm_gcc/blinky/blinky.sublime-project",
+		"/home/bebe/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/bebe/work/script/stm32_discovery_arm_gcc/STM32F4-Discovery_FW_V1.1.0/Libraries/CMSIS/ST/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f4xx.s",
+		"/home/bebe/.gdbinit"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"Run\"",
+			"\"run\"",
+			"UB_LIS302_Read",
+			"USART_Configuration",
+			"\n-I/home/ploop/projects/STM/",
+			"\n\"-I/home/ploop/projects/STM/",
+			"\n    \"-I/home/ploop/projects/STM/",
+			"USART2",
+			"BRR",
+			"UB_LIS302_Init",
+			"sendData",
+			"RCC_AHB1PeriphClockCmd",
+			"GPIO_InitStructure",
+			"RCC_APB1PeriphClockCmd",
+			"sendData",
+			"goto",
+			"alt+d",
+			"key",
+			"UB_LIS302_Init",
+			"splitAndSend",
+			"RCC_AHB1PeriphClockCmd",
+			"UB_LIS302_Read",
+			"USART2",
+			"USART_Configuration",
+			"assert_param",
+			"void assert_param(",
+			"SPI_Init",
+			"toggle",
+			"point",
+			"break"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.c",
+					"settings":
+					{
+						"buffer_size": 2531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								938,
+								938
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C Improved/C Improved.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 209.0
+	},
+	"output.exec":
+	{
+		"height": 330.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"brr",
+				"/home/bebe/work/lib/board/f4/Libraries/CMSIS/ST/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f4xx.s"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,1 @@
+scripts without libs for STM32 

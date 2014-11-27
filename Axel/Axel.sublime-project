@@ -1,0 +1,59 @@
+{
+    "folders":
+    [
+        {         
+             "path": "."
+        }
+        
+    ] ,
+"build_systems":
+    [
+        {
+            "name": "ARM build",
+            "cmd": ["make"],
+            "working_dir": "${project_path}/"
+        },
+        {
+            "name": "ARM hex",
+            "cmd": ["make", "Axe.hex"],
+            "working_dir": "${project_path}/"
+        },
+        {
+            "name": "ARM bin",
+            "cmd": ["make", "Axel.bin"],
+            "working_dir": "${project_path}/"
+        }
+
+    ],
+
+  "settings":
+       {
+            "sublimegdb_workingdir": "${folder:${path:Axel.sublime-project}}/",
+            "sublimegdb_commandline": "arm-none-eabi-gdb --interpreter=mi -command=${project_path:gdbcommands}",
+            "sublimegdb_exec_cmd" : "continue",
+            "sublimeclang_options":
+           [
+               "-std=c++11",
+               "-Wall",
+               "-I/home/bebe/work/lib/board/f4/Libraries/",
+               "-I/home/bebe/work/lib/board/f4/Libraries/CMSIS/",
+               "-I/home/bebe/work/lib/board/f4/Libraries/CMSIS/Include/",
+               "-I/home/bebe/work/lib/board/f4/Libraries/CMSIS/Source/",
+               "-I/home/bebe/work/lib/board/f4/Libraries/CMSIS/ST/STM32F4xx/Include/",
+               "-I/home/bebe/work/lib/board/f4/Libraries/CMSIS/ST/STM32F4xx/Source/",
+               "-I/home/bebe/work/lib/board/f4/Libraries/STM32F4xx_StdPeriph_Driver/",
+               "-I/home/bebe/work/lib/board/f4/Libraries/STM32F4xx_StdPeriph_Driver/src/",
+               "-I/home/bebe/work/lib/board/f4/Libraries/STM32F4xx_StdPeriph_Driver/inc/",
+               "-I/home/bebe/work/lib/board/f4/Libraries/STM32_USB_Device_Library/",
+               "-I/home/bebe/work/lib/board/f4/Libraries/STM32_USB_HOST_Library/",
+               "-I/home/bebe/work/lib/board/f4/Libraries/STM32_USB_OTG_Driver/",
+               "-I/home/bebe/work/lib/board/f4/Libraries/CMSIS/ST/STM32F4xx/Source/Templates/TrueSTUDIO/",
+               "-I/home/bebe/work/lib/board/f4/LIS302DL/",
+               "-I${folder:${project_path:Axel.sublime-project}}",
+               "-DSTM32F4XX_MD",
+               "-DUSE_STDPERIPH_DRIVER"
+           ]
+
+       }
+}
+

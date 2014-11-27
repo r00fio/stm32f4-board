@@ -1,0 +1,4 @@
+tar ext localhost:4242
+file /home/bebe/work/script/c/stm32f4-board/Axel/Axel.elf
+load
+set pagination off
